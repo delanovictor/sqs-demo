@@ -21,8 +21,8 @@ pip install boto3
 ```sh
 aws configure
 
-AWS Access Key ID: \<ACCESS_KEY\>
-AWS Secret Access Key: \<SECRET_KEY\> 
+AWS Access Key ID: \\<ACCESS_KEY\\>
+AWS Secret Access Key: \\<SECRET_KEY\\> 
 Default region name: sa-east-1
 ```
 
