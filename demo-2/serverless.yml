@@ -1,0 +1,15 @@
+service: sqs-demo
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: python3.12
+  region: sa-east-1
+
+functions:
+  consumer:
+    handler: lambda.lambda_handler
+
+package:
+  patterns:
+    - "!node_modules/**"
